@@ -6,26 +6,26 @@
 }
 body{
     height: 100vh;
-    background:linear-gradient(to top,rgba(0, 0, 0, 0.785),rgba(255, 255, 255, 0.779)), url(/rainy-day-mood-cartoon-style.jpg) no-repeat center/cover;
+    background:linear-gradient(to top,rgba(0, 0, 0, 0.785),rgba(255, 255, 255, 0.779)), url(https://file.hstatic.net/200001036086/file/rainy-day-mood-cartoon-style.jpg) no-repeat center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .cool{
-    background:linear-gradient(to top,rgba(0, 0, 0, 0.785),rgba(255, 255, 255, 0.779)), url(/realistic-drop-with-ecosystem.jpg) no-repeat center/cover;
+    background:linear-gradient(to top,rgba(0, 0, 0, 0.785),rgba(255, 255, 255, 0.779)), url(https://file.hstatic.net/200001036086/file/rainy-day-mood-cartoon-style.jpg) no-repeat center/cover;
 }
 .cool .wearther{
     background: url(/realistic-drop-with-ecosystem.jpg) no-repeat center/cover;
 }
 .ran{
-    background:linear-gradient(to top,rgba(0, 0, 0, 0.785),rgba(255, 255, 255, 0.779)), url(/rainy-day-mood-cartoon-style.jpg) no-repeat center/cover;
+    background:linear-gradient(to top,rgba(0, 0, 0, 0.785),rgba(255, 255, 255, 0.779)), url(https://file.hstatic.net/200001036086/file/rainy-day-mood-cartoon-style.jpg) no-repeat center/cover;
 }
 .ran .wearther{
-    background: url(/rainy-day-mood-cartoon-style.jpg) no-repeat center/cover;
+    background: url(https://file.hstatic.net/200001036086/file/rainy-day-mood-cartoon-style.jpg) no-repeat center/cover;
 }
 .wearther{
     width: 400px;
-    background: url(/rainy-day-mood-cartoon-style.jpg) no-repeat center/cover;
+    background: url(https://file.hstatic.net/200001036086/file/rainy-day-mood-cartoon-style.jpg) no-repeat center/cover;
     padding: 30px;
     text-align: center;
     border-radius: 10px;
