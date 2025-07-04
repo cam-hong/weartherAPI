@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    height: 100vh;
+    background:linear-gradient(to top,rgba(0, 0, 0, 0.785),rgba(255, 255, 255, 0.779)), url(/rainy-day-mood-cartoon-style.jpg) no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cool{
+    background:linear-gradient(to top,rgba(0, 0, 0, 0.785),rgba(255, 255, 255, 0.779)), url(/realistic-drop-with-ecosystem.jpg) no-repeat center/cover;
+}
+.cool .wearther{
+    background: url(/realistic-drop-with-ecosystem.jpg) no-repeat center/cover;
+}
+.ran{
+    background:linear-gradient(to top,rgba(0, 0, 0, 0.785),rgba(255, 255, 255, 0.779)), url(/rainy-day-mood-cartoon-style.jpg) no-repeat center/cover;
+}
+.ran .wearther{
+    background: url(/rainy-day-mood-cartoon-style.jpg) no-repeat center/cover;
+}
+.wearther{
+    width: 400px;
+    background: url(/rainy-day-mood-cartoon-style.jpg) no-repeat center/cover;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+.content{
+    position: relative;
+    transition: all .5s linear;
+}
+.hide{
+    visibility: hidden;
+    opacity: 0;
+}
+.input{
+    margin-bottom: 30PX;
+    width: 100%;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 5px;
+    box-shadow: 2px 3px 4px black;
+}
+.place{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 13px;
+    text-shadow: 2px 2px black;
+
+}
+.date{
+    color: white;
+}
+.template{
+    margin-top: 30px;
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    width: 180px;height: 100px;
+    background-color: rgba(255, 255, 255, 0.333);
+    text-wrap: nowrap;
+    display: block;margin: 30px auto;
+    border-radius: 10px;
+    box-shadow:4px 4px 5px black;
+}
+.template span{
+    text-shadow: 2px 2px black;
+}
+.clounds{
+    color:white;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+}
+.more-desc{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: white;
+}
+.desc{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
